@@ -16,7 +16,7 @@ My strengths are the ability to learn quickly, the ability to work well in a tea
 * HTML;
 * Git;
 * .NET; 
-* Visual Studio
+* Visual Studio.
 
 ## Code examples
 
@@ -50,16 +50,15 @@ var humanYearsCatYearsDogYears = function(humanYears) {
 I was developing an online store project.
 I was writing a page with a сart.
 CRUD, paginator, and validation are implemented on the page.
-The project can be found at the link: [Store](https://github.com/PolinaRomanchuk/MyHealthyFood)
+The project can be found at the link: [Store](https://github.com/PolinaRomanchuk/MyHealthyFood).
 
 ## Education
-* Academy of Public Administration
-under the President of the Republic of Belarus
-* BSUIR
-* TeachMeSkills
+* Academy of Public Administration under the President of the Republic of Belarus;
+* BSUIR;
+* TeachMeSkills.
 
 ## English
-Intermediate (B1)
+Intermediate (B1). I read and understand well, write and speak a little worse.
 
 
 
