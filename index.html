@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="navigation-list">
+                    <li> <a href="#contacts" class="navigation-link">Contacts</a> </li>
+                    <li> <a href="#about-me" class="navigation-link">About me</a> </li>
+                    <li> <a href="#skills" class="navigation-link">My Skills</a> </li>
+                    <li> <a href="#code-example" class="navigation-link">Code example</a> </li>
+                    <li> <a href="#experience" class="navigation-link">Experience</a> </li>
+                    <li> <a href="#education" class="navigation-link">Education</a> </li>
+                    <li> <a href="#english" class="navigation-link">English</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="profile">
+                <img src="./assets/img/avatar.jpg" alt="avatar" class="avatar">
+                <h1 class="full-name">Polina Romanchuk</h1>
+            </section>
+            <div class="main-container">
+                <section id="contacts">
+                    <h2>
+                        Contacts
+                    </h2>
+                    <ul class="nav-list-contacts">
+                        <li> <a href="https://t.me/poli_rn"> Telegram: @poli_rn</a></li>
+                        <li><a href="mailto:polina.romanchuk99@mail.ru"> polina.romanchuk99@mail.ru</a></li>
+                        <li><a href="https://github.com/PolinaRomanchuk" class="link-icon">
+                                <img src="./assets/img/icon.png" alt="icon link" class="img-icon-link">
+                                GitHub</a> </li>
+                        <li> <a href="https://www.linkedin.com/in/polina-romanchuk-2b2543286/" class="link-icon">
+                                <img src="./assets/img/icon.png" alt="icon link" class="img-icon-link">
+                                Linkedin</a> </li>
+                    </ul>
+                </section>
+                <section id="about-me">
+                    <h2>
+                        About me
+                    </h2>
+                    <div class="text-cv">I chose the IT field because of the desire to develop a product that will be
+                        useful
+                        to people, as
+                        well as because of the desire to develop my skills and self-improvement.
+                        My strengths are the ability to learn quickly, the ability to work well in a team and
+                        independently.
+                    </div>
+                </section>
+                <section id="skills">
+                    <h2>My Skills</h2>
+                    <ul>
+                        <li>
+                            JS;
+                        </li>
+                        <li>
+                            React;
+                        </li>
+                        <li>
+                            CSS;
+                        </li>
+                        <li>
+                            HTML;
+                        </li>
+                        <li>
+                            Git;
+                        </li>
+                        <li>
+                            .NET;
+                        </li>
+                        <li>
+                            Visual Studio.
+                        </li>
+                    </ul>
+                </section>
+                <section id="code-example">
+                    <h2>Code examples</h2>
+                    <pre>
+                var humanYearsCatYearsDogYears = function(humanYears) {
+                let catYears;
+                let dogYears;
+                if (humanYears == 1)
+                 {
+                   catYears = dogYears = 15;
+                 }
+                else if (humanYears == 2)
+                 {
+                   catYears = dogYears = 24;
+                 }
+                else if (humanYears > 2)
+                 {
+                   let ageDifference = humanYears - 2;
+                   catYears = dogYears = 24;
+                   for (let i = 0; i < ageDifference; i++) 
+                    { 
+                      catYears+=4; dogYears+=5; 
+                    } 
+                 };
+                return [humanYears, catYears, dogYears]; 
+            }; 
+        </pre>
+                </section>
+                <section id="experience">
+                    <h2>
+                        Experience
+                    </h2>
+                    <div class="text-cv">
+                        I was developing an online store project. I was writing a page with a cart. CRUD, paginator, and
+                        validation are implemented on the page. The project can be found at the link: <br><a
+                            href="https://github.com/PolinaRomanchuk/MyHealthyFood" class="link-icon"><img
+                                src="./assets/img/icon.png" alt="icon link" class="img-icon-link">Store</a>
+                    </div>
+                </section>
+                <section id="education">
+                    <h2>
+                        Education
+                    </h2>
+                    <ul>
+                        <li>
+                            Academy of Public Administration under the President of the Republic of Belarus;
+                        </li>
+                        <li>
+                            BSUIR;
+                        </li>
+                        <li><a href="https://teachmeskills.by/kursy/kursy-asp-net-online" class="link-icon"><img
+                                    src="./assets/img/icon.png" alt="icon link" class="img-icon-link">TeachMeSkills.</a>
+                        </li>
+                    </ul>
+                </section>
+                <section id="english">
+                    <h2>English</h2>
+                    <p>
+                        Intermediate (B1)
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container container">
+            <a href="https://rs.school/courses/javascript-ru" class="link-rsschool">
+                <img src="./assets/svg/rs_school_js.svg" alt="logo rsschool" class="logo-rsschool">
+            </a>
+            </href>
+            <a href="https://github.com/PolinaRomanchuk" class="link-github">
+                GitHub
+            </a>
+            © 2024
+        </div>
+    </footer>
+</body>
+
+</html>

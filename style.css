@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation-link {
+    padding-right: 40px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        color: rgba(77, 2, 92, 0.616);
+        text-decoration: underline;
+    }
+}
+
+.main-container section {
+    width: 50%;
+    max-width: 600px;
+    padding-right: 50px;
+}
+
+#profile {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-color: rgba(77, 2, 92, 0.616) white;
+    border-style: solid;
+}
+
+.avatar {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+.full-name {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+pre {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 70px 30px 70px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo-rsschool {
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.img-icon-link {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.link-icon {
+    display: flex;
+    align-items: center;
+}
+
+.text-cv {
+    text-align: justify;
+}
+
+.link-github{
+    padding: 0 500px 0 500px;
+}
